@@ -1,9 +1,12 @@
-#include "logic.h"
-#include "screen.h"
-#include "engine.h"
-#include "debug.h"
+/*
+ * pawnmatch
+ *
+ * Written by Hampus Fridholm
+ *
+ * Last updated: 2023-09-09
+ */
 
-#include <pthread.h>
+#include "pawnmatch.h"
 
 const unsigned int FRAMES_PER_SECOND = 60;
 
